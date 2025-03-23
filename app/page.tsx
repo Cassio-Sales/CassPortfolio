@@ -4,11 +4,11 @@ import RecentProjects from "@/components/RecentProjects";
 import Approach from "@/components/ui/Approach";
 import Clients from "@/components/ui/Clients";
 import Experience from "@/components/ui/Experience";
-import Expierience from "@/components/ui/Experience";
+
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Footer from "@/components/ui/Footer";
 import { navItems } from "@/data";
-import Image from "next/image";
+
 
 
 export default function Home() {
