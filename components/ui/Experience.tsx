@@ -2,6 +2,9 @@ import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './MovingBorders'
 
+if (typeof window !== "undefined") {
+  require("typeface-inter")
+}
 const Experience = () => {
   return (
     <div className="py-20" id="tetimonials">
