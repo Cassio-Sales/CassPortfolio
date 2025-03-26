@@ -22,7 +22,7 @@
     "react-lottie": "^1.2.10",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.171.0",
+    "three": "^0.163.0",
     "three-globe": "^2.37.1"
   },
   "devDependencies": {
