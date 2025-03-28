@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-    img: '/p1.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://github.com/adrianhajdin?tab=repositories'
+    title: '3D Portfolio',
+    des: 'This project gave me experience working with 3D modules using React, Three.js, and EmailJS.',
+    img: '/p1.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg'],
+    link: 'https://3-d-porfolio-lac.vercel.app/'
   },
   {
     id: 2,
@@ -131,8 +131,8 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
+      "loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: 'Michael Johnsolo',
     title: 'Director of AlphaStream Technologies'
   }
 ]
@@ -206,10 +206,7 @@ export const socialMedia = [
     id: 1,
     img: '/git.svg'
   },
-  {
-    id: 2,
-    img: '/twit.svg'
-  },
+  
   {
     id: 3,
     img: '/link.svg'

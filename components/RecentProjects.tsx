@@ -11,24 +11,35 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, iconLists, link }, index) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw] lg:[h-30vh] mb-10"
           >
-                     {/* Make container bigger sm:w-[570px] */}
-            <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center         sm:w-[570px] w-[80vw] overflow-hidden h-[40vh] mb-10">
-                {' '}
+            <PinContainer
+              title={link}
+              href={index === 0 ? 'https://3-d-porfolio-lac.vercel.app/' : link}
+            >
+              <a
+                href={
+                  index === 0 ? 'https://3-d-porfolio-lac.vercel.app/' : link
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[40vh] mb-10"
+              >
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <img
+                    src={img}
+                    alt={title}
+                    className={
+                      index === 0
+                        ? 'absolute inset-0 w-full h-full object-cover'
+                        : 'z-10 absolute bottom-0'
+                    }
+                  />
                 </div>
-                <img
-                  src={img}
-                  alt={title}
-                  className={'z-10 absolute bottom-0'}
-                />
-              </div>
+              </a>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
@@ -51,8 +62,7 @@ const RecentProjects = () => {
                 </div>
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-sm text-purple">
-                    {' '}
-                    Check Live Site{' '}
+                    Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
