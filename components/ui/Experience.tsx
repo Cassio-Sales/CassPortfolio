@@ -27,7 +27,7 @@ const Experience = () => {
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                className="absolute inset-0 w-full h-full object-cover rounded-lg "
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
                 <h1 className="text-sm font-bold text-white text-center">
