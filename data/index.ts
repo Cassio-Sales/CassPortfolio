@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: 'Self-taught software engineer with a passion for development.',
+    title: 'Software engineer with a passion for development.',
     description: '',
     className: 'lg:col-span-3 md:col-span-4 md:row-span-2 h-auto',
     imgClassName: '',
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'I am Currently looking for a position as a Front-End developer. ',
+    title: 'I am currently looking for a position as a Front-End developer',
     description: '',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 sm:hidden md:block md:w-96 w-60 ',
@@ -80,27 +80,27 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
+    title: 'Beauty Salon',
     des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone'
+    img: '/p2.png',
+    iconLists: ['/js.svg', 'html.svg', 'css.svg'],
+    link: 'https://cassio-sales.github.io/BeautySaloon/'
   },
   {
     id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/ai_saas_app'
+    title: 'Cass Timer',
+    des: 'A simple pomodoro timer to help you stay focused and productive.',
+    img: '/p3.png',
+    iconLists: ['/re.svg', 'css.svg', '/ts.svg'],
+    link: 'https://cass-timer.vercel.app/'
   },
   {
     id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone'
+    title: 'Portfolio landing page',
+    des: 'A simple portfolio landing page to showcase my work and skills.',
+    img: '/p4.png',
+    iconLists: ['/html.svg', '/css.svg', 'js.svg'],
+    link: 'https://cassio-sales.github.io/PortfolioJS/'
   }
 ]
 
@@ -113,28 +113,17 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Cassio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Cassio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Cassio is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Cassio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Cassio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Cassio is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies'
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  },
-  {
-    quote:
-      "loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    name: 'Michael Johnsolo',
-    title: 'Director of AlphaStream Technologies'
-  }
+  
 ]
 
 export const companies = [
