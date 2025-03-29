@@ -83,7 +83,7 @@ export const projects = [
     title: 'Beauty Salon',
     des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
     img: '/p2.png',
-    iconLists: ['/js.svg', 'html.svg', 'css.svg'],
+    iconLists: ['/jota.svg', 'html.svg', 'css.svg'],
     link: 'https://cassio-sales.github.io/BeautySaloon/'
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: 'Portfolio landing page',
     des: 'A simple portfolio landing page to showcase my work and skills.',
     img: '/p4.png',
-    iconLists: ['/html.svg', '/css.svg', 'js.svg'],
+    iconLists: ['/html.svg', '/css.svg', 'jota.svg'],
     link: 'https://cassio-sales.github.io/PortfolioJS/'
   }
 ]
@@ -186,7 +186,7 @@ export const workExperience = [
     //title: 'Lead Frontend Developer',
     //desc: 'Developed and maintained user-facing features using modern frontend technologies.',
     className: 'md:col-span-2',
-    thumbnail: '/responsive.png'
+    thumbnail: '/web-respo.png'
   }
 ]
 
