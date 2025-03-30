@@ -2,14 +2,25 @@ import React from 'react'
 import { projects } from '@/data'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
-
+import { TypewriterEffect } from './ui/typewriter-effect'
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
-        A small selection of{' '}
-        <span className="text-purple">recent projects</span>
-      </h1>
+      <TypewriterEffect
+        className="text-center text-[40px] md:text-5xl lg:text-6xl"
+        words={[
+          { text: 'My' },
+          { text: 'recent' },
+          { text: 'projects', className: 'text-purple-500' }
+        ]}
+      />
+
+      {/* 
+<h1 className="heading">
+  A small selection of{' '}
+  <span className="text-purple">recent projects</span>
+</h1> 
+*/}
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <a

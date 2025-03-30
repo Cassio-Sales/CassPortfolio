@@ -89,7 +89,7 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Cassio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: 'Nathaly ',
+    name: 'Jhon',
     title: 'Director at Naths Design'
   },
   {
