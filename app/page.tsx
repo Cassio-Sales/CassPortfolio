@@ -7,7 +7,7 @@ import Experience from '@/components/ui/Experience'
 
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import Footer from '@/components/ui/Footer'
-import { TypewriterEffect } from '@/components/ui/typewriter-effect'
+import { TypewriterEffect } from '@/components/ui/Typewriter'
 import { navItems } from '@/data'
 
 import dynamic from 'next/dynamic'

@@ -2,7 +2,7 @@ import React from 'react'
 import { projects } from '@/data'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
-import { TypewriterEffect } from './ui/typewriter-effect'
+import { TypewriterEffect } from './ui/Typewriter'
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
