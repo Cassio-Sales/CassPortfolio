@@ -20,9 +20,9 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: '',
-    className: 'lg:col-span-2 md:col-span-3 md:row-span-3',
+    className: 'lg:col-span-2 md:col-span-3 md:row-span-3 lg:min-h-[10vh]',
     imgClassName: '',
-    titleClassName: 'justify-start',
+    //titleClassName: 'justify-start translate-y-[-10%]', // Aqui sobe 20%
     img: '',
     spareImg: ''
   },
@@ -36,36 +36,17 @@ export const gridItems = [
     img: '',
     spareImg: ''
   },
-  {
-    id: 4,
-    title: 'Software engineer with a passion for development.',
-    description: '',
-    className: 'lg:col-span-3 md:col-span-4 md:row-span-2 h-auto',
-    imgClassName: '',
-    titleClassName: 'justify-start',
-    img: '/grid.svg',
-    spareImg: '/b5.svg'
-  },
 
-  {
-    id: 5,
-    title: 'I am currently looking for a position as a Front-End developer',
-    description: '',
-    className: 'md:col-span-3 md:row-span-2',
-    imgClassName: 'absolute right-0 bottom-0 sm:hidden md:block md:w-96 w-60 ',
-    titleClassName: 'justify-center md:justify-start lg:justify-center',
-    img: '/grid.svg',
-    spareImg: '/grid.svg'
-  },
   {
     id: 6,
     title: 'Do you want to start a project together?',
     description: '',
-    className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
+    className: 'md:col-span-3 md:row-span-2',
     imgClassName: '',
     titleClassName: 'justify-center md:max-w-full max-w-60 text-center',
     img: '',
     spareImg: ''
+    
   }
 ]
 
