@@ -14,9 +14,8 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="
+            In collaboration with our UX/UI designer Nathaly, we define the application's goals, target users, and overall user experience. I then organize the project structure and prepare the development environment for a clean and scalable workflow."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -27,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          description="I translate the design into responsive interfaces, build reusable components, and integrate APIs or external data as needed, ensuring consistency with the design vision. I also implement state management and routing to create a seamless user experience. Regular progress updates are provided to ensure alignment with the project goals."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -40,15 +37,12 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          
         </Card>
 
         <Card
-          title="Development & Launch"
+          title="Testing and Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          description="Based on the approved design, 
-          I'll translate everything into functional code, building your application
-          from the ground up."
+          description="The application is tested across different devices and browsers to ensure functionality and performance. Once approved, it is deployed to a production environment using a hosting platform such as Vercel."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -97,14 +91,19 @@ const Card = ({
       </AnimatePresence>
 
       <div className="relative z-20">
-        <div className="text-center group-hover/canvas-card:-translate-y-4
-        absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
+        <div
+          className="text-center group-hover/canvas-card:-translate-y-4
+        absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center"
+        >
           {icon}
         </div>
         <h2 className="dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center text-3xl">
           {title}
         </h2>
-        <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center" style={{ color: '#e4ecff'}}>
+        <h2
+          className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
+          style={{ color: '#e4ecff' }}
+        >
           {description}
         </h2>
       </div>
@@ -112,7 +111,7 @@ const Card = ({
   )
 }
 
-const AceternityIcon = ({ order }: { order: string}) => {
+const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
       <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
