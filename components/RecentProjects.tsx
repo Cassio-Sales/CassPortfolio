@@ -16,8 +16,8 @@ const RecentProjects = () => {
         ]}
       />
 
-      {/* Container de todos os cards */}
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-0 gap-y-0 sm:gap-x-24 sm:gap-y-8 mt-10">
+      {/* GAP ZERADO NO MOBILE, NORMAL NO DESKTOP */}
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-0 gap-y-6 sm:gap-x-24 sm:gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <a
             key={id}
@@ -27,16 +27,22 @@ const RecentProjects = () => {
             className="h-[50vh] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={link} href={link}>
-              {/* Container da imagem */}
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-full">
+              {/* sm:relative RESTAURADO para o desktop */}
+              <div className="relative sm:relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-auto">
                 {/* Imagem de fundo */}
-                <div className="absolute inset-0 w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d] z-0" />
+                <div className="absolute inset-0 w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d] z-0">
+                  <img
+                    src="/bg.png"
+                    alt="bg-img"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
 
-                {/* Imagem do projeto */}
+                {/* Imagem principal */}
                 <img
                   src={img}
                   alt={title}
-                  className="z-10 relative w-full h-full object-contain sm:absolute sm:inset-0 sm:object-cover sm:object-center"
+                  className="w-full h-auto sm:h-full relative sm:absolute object-contain sm:object-cover sm:object-center sm:inset-0 z-10"
                 />
               </div>
 
