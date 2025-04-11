@@ -8,10 +8,10 @@ if (typeof window !== 'undefined') {
 
 const Experience = () => {
   return (
-    <div className="py-20" id="tetimonials">
+    <div className="py-20" id="certificates">
       <h1 className="heading">
         
-        <span className="text-purple"> Certificates</span>
+        <span className="text-purple">Certificates</span>
       </h1>
       <div className="w-full mt-12 grid sm:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map(card => (
