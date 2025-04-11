@@ -62,7 +62,7 @@ export const projects = [
   {
     id: 2,
     title: 'Beauty Salon',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+    des: 'A simple beauty salon website to showcase services ',
     img: '/p2.png',
     iconLists: ['/jota.svg', 'html.svg', 'css.svg'],
     link: 'https://cassio-sales.github.io/BeautySaloon/'
