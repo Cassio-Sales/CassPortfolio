@@ -1,20 +1,31 @@
 'use client'
 import React from 'react'
 import { CanvasRevealEffect } from '@/components/ui/CanvasRevealEffect'
+import { TypewriterEffect } from './Typewriter'
 
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
-      </h1>
+      <div className="py-20" id="">
+        <TypewriterEffect
+          className="text-center text-[40px] md:text-5xl lg:text-6xl"
+          words={[
+            { text: 'My' },
+            { text: 'Approach', className: 'purple' }
+          ]}
+        />
+      </div>
+
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning & Strategy"
           //icon={<AceternityIcon order="Phase 1" />}
           description="In collaboration with our UX/UI designer Nathaly, we define the application's goals, target users, and overall user experience. I then organize the project structure and prepare the development environment for a clean and scalable workflow."
         >
-          <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900" />
+          <CanvasRevealEffect
+            animationSpeed={5.1}
+            containerClassName="bg-emerald-900"
+          />
         </Card>
 
         <Card

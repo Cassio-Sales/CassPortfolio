@@ -1,6 +1,7 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './MovingBorders'
+import { TypewriterEffect } from './Typewriter'
 
 if (typeof window !== 'undefined') {
   require('typeface-inter')
